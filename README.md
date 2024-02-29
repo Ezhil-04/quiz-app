@@ -1,2 +1,2 @@
 # quiz-app
- Simple quiz app made of html , css  , javascript. useful for beginers
+ Simple quiz app made of html , css  , javascript. useful for beginers.
