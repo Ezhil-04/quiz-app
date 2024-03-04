@@ -11,6 +11,7 @@ body{
     height: 100vh;
 }
 .wrapper{
+    position: relative;
     background-color: aliceblue;
     width: 20rem;
     height: 30rem;
@@ -40,8 +41,9 @@ body{
    font-size: 1rem;
 }
 .answer{
+ 
   display: grid;
-  place-content: center;
+  place-content:center;
 
 }
 .answer button{
@@ -82,4 +84,36 @@ border: 1px solid;
 }
 .incorrect button:disabled{
     opacity: 1;
+}
+
+
+  
+
+.score{
+    position: absolute;
+    top: 5rem;
+}
+.mainscore{
+
+  
+}
+.playagain{
+  
+   /* position: absolute;
+  top: 25rem;
+  left: 6rem; */
+}
+.playagain button:hover{
+    width: 8rem;
+    background-color: blue;
+}
+button:disabled{
+    color: rgb(0, 0, 0);
+}
+
+.imgclass{
+    height: 7rem;
+    position: absolute;
+    top: 13rem;
+    left: 7rem;
 }
