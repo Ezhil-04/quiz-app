@@ -116,4 +116,23 @@ button:disabled{
     position: absolute;
     top: 13rem;
     left: 7rem;
+    animation: anim 3s linear infinite ;
+}
+
+@keyframes anim{
+    0%{
+     transform: scale(1);
+    }
+    25%{
+        transform: scale(.90);
+    }
+    50%{
+        transform: scale(1);
+       }
+       75%{
+           transform: scale(.90);
+       }
+       100%{
+transform: scale(1);
+       }
 }
