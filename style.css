@@ -55,6 +55,13 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-weight: 600;
 font-size: 1rem;
 border: 1px solid;
+  letter-spacing: 4px;
+   
+    width: 9rem;
+    border: none;
+    margin: none;
+    background-color: black;
+    color: aliceblue;  
 }
 
 .question{
